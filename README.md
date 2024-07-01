@@ -29,4 +29,4 @@ O projeto contém responsividade em suas páginas.
 
 | Desktop | Mobile |
 |--|--|
-|<img width="310" height="174" src="./github-layouts/desktop.png" /> | <img width="137" height="297" src="./github-layouts/mobile.png" />|
+|<img height="297" src="./github-layouts/desktop.png" /> | <img width="137" height="297" src="./github-layouts/mobile.png" />|
