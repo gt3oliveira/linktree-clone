@@ -1,13 +1,14 @@
-## Link Tree Clone
+## Linktree Clone Layout
 
-Este é um projeto clone do Link Tree desenvolvido com [Vite](). Os frameworks utilizados para o desenvolvimento foram:
+Este é um projeto clone do layout do Linktree  desenvolvido com [Vite](https://vitejs.dev/). 
 
-- React
-- Typescript
-- Tailwind CSS
-- Shadcn
+Os frameworks utilizados para o desenvolvimento foram:
+
+✔ Typescript &nbsp;
+✔ Tailwind CSS &nbsp;
+✔ Shadcn
+
 &nbsp;
-
 ## 👨🏻‍💻 Começando...
 
 Primeiro, execute os seguintes comandos no cmd da sua IDE:
@@ -22,7 +23,7 @@ npm run dev
 
 👍🏻 Execute o projeto no navegador com `localhost://5173`
 
----
+&nbsp;
 ## 💻📱 Layouts do projeto
 
 O projeto contém responsividade em suas páginas.
