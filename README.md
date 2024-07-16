@@ -1,10 +1,9 @@
 ## Linktree Clone Layout
 
-Este é um projeto clone do layout do Linktree  desenvolvido com [Vite](https://vitejs.dev/). 
+Este é um projeto clone do layout do Linktree iniciado com [Vite](https://vitejs.dev/) e desenvolvido com Typescript. 
 
 Os frameworks utilizados para o desenvolvimento foram:
 
-✔ Typescript &nbsp;
 ✔ Tailwind CSS &nbsp;
 ✔ Shadcn
 
@@ -20,6 +19,8 @@ npm install
 ```bash
 npm run dev
 ```
+
+&nbsp;
 
 👍🏻 Execute o projeto no navegador com `localhost://5173`
 
