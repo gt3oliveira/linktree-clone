@@ -1,5 +1,6 @@
 import { FacebookIcon, InstagramIcon, LinkedinIcon } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "./components/ui/avatar";
+import { ButtonLink } from "./components/button-link";
 
 export default function App() {
   const links = [
@@ -28,18 +29,9 @@ export default function App() {
             maiores.
           </p>
         </div>
-        <div className="flex flex-col items-center w-full gap-4 div-card">
-          {links.map((item) => (
-            <a
-              key={item.name}
-              href="#"
-              target="_blank"
-              className="bg-[#3C5335] font-semibold text-[#D4D4D4] w-full p-3 text-center rounded-xl text-xl border-b-8 border-r-8 border-[#C4FFB2] hover:bg-[#3C5335]/95"
-            >
-              {item.name}
-            </a>
-          ))}
-          <div className="flex justify-around w-full px-12 mt-6">
+        <div className="flex flex-col items-center w-full div-card">
+          <ButtonLink links={links} />
+          <div className="flex justify-around w-full px-12 mt-8">
             <LinkedinIcon className="w-10 h-10 rounded-sm text-[#3C5335] hover:scale-110 transition duration-200 sm:h-8 sm:w-8 hover:text-white hover:bg-blue-600 hover:rounded-sm" />
             <InstagramIcon className="w-10 h-10 text-[#3C5335] hover:scale-110 transition duration-200 sm:h-8 sm:w-8 hover:text-violet-400" />
             <FacebookIcon className="w-10 h-10 text-[#3C5335] hover:scale-110 transition duration-200 sm:h-8 sm:w-8 hover:text-blue-600" />
